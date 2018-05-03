@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <h1>Lorem.</h1>
+    <h2>Lorem ipsum.</h2>
+    <h3>Lorem ipsum dolor.</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id maxime corrupti, nulla earum possimus vitae omnis
+        odio
+        pariatur officia! Odit ipsa alias labore nostrum sint ex non repellendus, doloremque et.</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit quaerat sint commodi est itaque vero,
+        incidunt,
+        quisquam obcaecati iusto minus inventore voluptatum. Consequuntur, at sequi ut nihil fugit amet possimus.</p>
+</div>
+
+<div>
+    <a href="https://www.jd.com">在新窗口打开京东</a>
+    <a href="mailto:maio@miaostar.com">点击给我发邮件</a>
+    <a href="#anchor">跳转到本页的底部</a>
+    <a href="pic.jpg" type="download">点我可以下载一个文件</a>
+</div>
+<img src="pic.jpg" alt="图片加载失败" title="图片描述" width="200" height="200">
+<hr>
+<hr>
+<div>
+    <marquee behavior="" direction="">飘~~~</marquee>
+    <em>这几种强调</em> <strong>有什么</strong> <b>区别呢？</b> <u>这个呢？</u> <i>这个呢？</i>
+
+    <p>html的注释怎么写？</p>
+    <!-- 注释 -->
+
+    <p>下面是一段javascript代码，最合适用何种标签表示呢？</p>
+    <pre><code>
+            function a(){
+                return 8
+            }
+        </code></pre>
+</div>
+
+<hr>
+
+<div>
+    <ul>
+        <li>小学
+            <ol>
+                <li>一年级
+                    <ol>
+                        <li>上学期</li>
+                        <li>下学期</li>
+                    </ol>
+                </li>
+                <li>二年级</li>
+                <li>三年级</li>
+            </ol>
+        </li>
+        <li>中学</li>
+        <li>大学</li>
+    </ul>
+</div>
+
+<hr>
+<div>
+    <dl>
+        <dt>班级</dt>
+        <dd>三年二班</dd>
+
+        <dt>老师</dt>
+        <dd>张老师</dd>
+        <dd>李老师</dd>
+        <dd>王老师</dd>
+
+        <dt>学生</dt>
+        <dd></dd>
+        <dd>小明</dd>
+        <dd>豆豆</dd>
+    </dl>
+</div>
+<hr>
+<div>
+    <h3>Google搜索</h3>
+
+    <form action="https://www.google.com/search">
+        <input type="text" placeholder="请输入想要搜索的内容" name="q" required>
+        <button type="submit">在新窗口打开搜索结果</button>
+    </form>
+</div>
+<hr>
+<div>
+    <form action="#">
+        <p>个人信息调查表</p>
+        <dl>
+            <dt>性别</dt>
+            <dd>
+                <label>
+                    <input type="radio" name="gender" value="male">男
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="female">女
+                </label>
+            </dd>
+
+            <dt>年龄</dt>
+            <dd>
+                <select>
+                    <optgroup label="少年">
+                        <option value="">1-6岁</option>
+                        <option value="">6-12岁</option>
+                    </optgroup>
+                    <optgroup label="青年">
+                        <option value="">13-15岁</option>
+                        <option value="">16-18岁</option>
+                    </optgroup>
+                    <optgroup label="壮年">
+                        <option value="">18-22</option>
+                        <option value="">23-30</option>
+                    </optgroup>
+                </select>
+            </dd>
+
+            <dt>生日</dt>
+            <dd>
+                <input type="date">
+            </dd>
+
+            <dt>生辰</dt>
+            <dd>
+                <input type="time">
+            </dd>
+
+            <dt>照片</dt>
+            <dd>
+                <input type="file">
+            </dd>
+
+            <dt>肤色</dt>
+            <dd>
+                <input type="color">
+            </dd>
+
+            <dt>自我介绍</dt>
+            <dd>
+                <textarea name="" id="" cols="30" rows="10">&lt;/textarea></textarea>
+            </dd>
+        </dl>
+        <fieldset disabled>
+            <legend>这里面的全都禁用了</legend>
+            <input type="text">
+            <input type="text">
+            <input type="text">
+            <input type="text">
+        </fieldset>
+
+        <input type="submit">
+        <input type="reset">
+    </form>
+</div>
+
+<hr>
+<div>
+    <table border="1">
+        <col>
+        <col bgcolor="red">
+        <caption>货品列表</caption>
+        <tbody>
+        <tr>
+            <th>编号</th>
+            <th>品名</th>
+            <th>进价</th>
+            <th>出价</th>
+        </tr>
+        <tr>
+            <th>001</th>
+            <th>苹果</th>
+            <th rowspan="2">5</th>
+            <th>8</th>
+        </tr>
+        <tr>
+            <th>001</th>
+            <th>橘子</th>
+            <th>8</th>
+        </tr>
+        <tr>
+            <th>001</th>
+            <th>香蕉</th>
+            <th>5</th>
+            <th>8</th>
+        </tr>
+        <tr>
+            <th>001</th>
+            <th>山竹</th>
+            <th>5</th>
+            <th>8</th>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<hr>
+<div>
+    <img src="mi.jpg" alt="这是一只猫头鹰" width="300" title="image title" usemap="#somemap">
+
+    <map name="somemap">
+        <area shape="rect" coords="50,100,300,200" href="https://www.mi.com/" alt="猫头鹰的眼睛" title="点击猫头鹰的眼睛跳转到小米官网" target="_blank">
+        <!--coords 参数 距离左边,距离上边(矩形左上角顶点), 距离左边,距离上边(矩形右下角顶点)-->
+        <area shape="circle" coords="133,262,90" href="" alt="猫头鹰的肚子" title="猫头鹰的肚子">
+        <!--coords 参数 前两个值确定圆心,后面是半径-->
+        <area shape="poly" coords="57,82,8,265,163,397,225,256,187,83" href="" alt="猫头鹰" title="猫头鹰">
+        <!--coords 参数 都是多边形的顶点,至少需要三个-->
+    </map>
+</div>
+<hr>
+<div>
+    <p><a href="www.mi.com" target="iframe1">点击我会在下面的frame里打开小米商场，但为什么打不开呢？</a></p>
+    <!--浏览器处于对安全性的考虑......可能是同源策略? -->
+    <iframe src="https://nodejs.org/en/" frameborder="0" name="iframe1"></iframe>
+
+    <p>怎样&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在这两个字之间空这么大呢？</p>
+    <p>怎样在页面中显示下面的内容呢？</p>
+    <p>&lt;span>&lt;/span></p>
+    <div id="anchor"></div>
+</div>
+</body>
+</html>

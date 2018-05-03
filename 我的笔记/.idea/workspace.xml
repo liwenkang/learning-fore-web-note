@@ -14,21 +14,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CSS Zen Garden_ The Beauty of CSS Design.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CSS Zen Garden_ The Beauty of CSS Design.html">
+      <file leaf-file-name="5.2作业.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/5.2作业.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            <state relative-caret-position="368">
+              <caret line="216" column="50" lean-forward="true" selection-start-line="216" selection-start-column="50" selection-end-line="216" selection-end-column="50" />
+              <folding>
+                <element signature="e#5598#5604#0" expanded="true" />
+                <element signature="e#5604#5610#0" expanded="true" />
+                <element signature="e#5610#5616#0" expanded="true" />
+                <element signature="e#5616#5622#0" expanded="true" />
+                <element signature="e#5622#5628#0" expanded="true" />
+                <element signature="e#5628#5634#0" expanded="true" />
+                <element signature="e#5634#5640#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>textar</find>
+    </findStrings>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/CSS Zen Garden_ The Beauty of CSS Design.html" />
+        <option value="$PROJECT_DIR$/5.2作业.html" />
       </list>
     </option>
   </component>
@@ -48,10 +70,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="527" />
-    <option name="y" value="208" />
+    <option name="x" value="676" />
     <option name="width" value="697" />
-    <option name="height" value="735" />
+    <option name="height" value="775" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -60,8 +81,9 @@
     <panes />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../leetcode实录" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../leetcode" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
@@ -90,17 +112,19 @@
       <updated>1525094819432</updated>
       <workItem from="1525094821604" duration="2096000" />
       <workItem from="1525134941462" duration="177000" />
+      <workItem from="1525252730061" duration="6631000" />
+      <workItem from="1525260836154" duration="19000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2273000" />
+    <option name="totallyTimeSpent" value="8923000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.14787701" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2966226" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -126,13 +150,23 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CSS Zen Garden_ The Beauty of CSS Design.html">
+    <entry file="file://$PROJECT_DIR$/5.2作业.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        <state relative-caret-position="6300">
+          <caret line="210" column="84" lean-forward="true" selection-start-line="210" selection-start-column="84" selection-end-line="210" selection-end-column="84" />
+          <folding>
+            <element signature="e#5598#5604#0" expanded="true" />
+            <element signature="e#5604#5610#0" expanded="true" />
+            <element signature="e#5610#5616#0" expanded="true" />
+            <element signature="e#5616#5622#0" expanded="true" />
+            <element signature="e#5622#5628#0" expanded="true" />
+            <element signature="e#5628#5634#0" expanded="true" />
+            <element signature="e#5634#5640#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CSS Zen Garden_ The Beauty of CSS Design.html" />
     <entry file="file://$PROJECT_DIR$/4.27作业(jquery).md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -143,10 +177,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSS Zen Garden_ The Beauty of CSS Design.html">
+    <entry file="file://$PROJECT_DIR$/CSS Zen Garden_ The Beauty of CSS Design.html" />
+    <entry file="file://$PROJECT_DIR$/5.2作业.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        <state relative-caret-position="368">
+          <caret line="216" column="50" lean-forward="true" selection-start-line="216" selection-start-column="50" selection-end-line="216" selection-end-column="50" />
+          <folding>
+            <element signature="e#5598#5604#0" expanded="true" />
+            <element signature="e#5604#5610#0" expanded="true" />
+            <element signature="e#5610#5616#0" expanded="true" />
+            <element signature="e#5616#5622#0" expanded="true" />
+            <element signature="e#5622#5628#0" expanded="true" />
+            <element signature="e#5628#5634#0" expanded="true" />
+            <element signature="e#5634#5640#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
