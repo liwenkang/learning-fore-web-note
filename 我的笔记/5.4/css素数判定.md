@@ -110,8 +110,8 @@ css 如下所示
     li:nth-child(7n + 14),
     li:nth-child(11n + 22),
     li:nth-child(13n + 26),
-    li:nth-child(17n + 26),
-    li:nth-child(19n + 26),
+    li:nth-child(17n + 34),
+    li:nth-child(19n + 38),
     ......
 ```
 根据[试除法](https://zh.wikipedia.org/wiki/%E7%B4%A0%E6%95%B0#%E8%A9%A6%E9%99%A4%E6%B3%95),可以在数学上证明,如果我们想要筛选出 N 以内所有的素数，只需要将它分别除以 [2 ~ 根号N] 之间的整数,将完全不能整除的数字找出来.
