@@ -4,19 +4,30 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
-<body>
-<div>
-    <h1>Lorem.</h1>
-    <h2>Lorem ipsum.</h2>
-    <h3>Lorem ipsum dolor.</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id maxime corrupti, nulla earum possimus vitae omnis
-        odio
-        pariatur officia! Odit ipsa alias labore nostrum sint ex non repellendus, doloremque et.</p>
+<style>
+	input:required {
+	  border-color: #800000;
+	  border-width: 1px;
+	}
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit quaerat sint commodi est itaque vero,
-        incidunt,
-        quisquam obcaecati iusto minus inventore voluptatum. Consequuntur, at sequi ut nihil fugit amet possimus.</p>
-</div>
+	input:optional {
+	  border-color: #C00000;
+	  border-width: 30px;
+	}
+</style>
+<body>
+	<!-- Learn about this code on MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/:invalid -->
+
+	<form>
+	  <label for="url_input">Enter a URL:</label>
+	  <input type="url" id="url_input" />
+	  <br />
+	  <br />
+	  <label for="email_input">Enter an email address:</label>
+	  <input type="email" id="email_input" required = "false"/>
+	</form>
+	
+</body>
 
 <div>
     <a href="https://www.jd.com">在新窗口打开京东</a>
